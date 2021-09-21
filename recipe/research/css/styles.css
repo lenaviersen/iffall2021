@@ -1,0 +1,38 @@
+h1{
+    font-size: 64pt;
+    text-decoration: underline;
+    line-height: .5;
+}
+
+body{
+    background-color: lightyellow;
+    margin: 3%;
+    font-family: sofia, sans-serif;
+    margin-right: 47%;
+    margin-bottom: 5%;
+}
+
+h2{
+    font-style: italic;
+    font-size: 18pt;
+}
+
+p{
+    font-size: 14pt;
+   
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.subtitle{
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.martha{
+    text-align: right;
+    font-size: 12pt;
+}
