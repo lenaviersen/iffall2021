@@ -1,0 +1,40 @@
+body{
+    font-family: nunito, sans-serif;
+    background-color: rgb(182, 153, 201);
+    margin: 2%;
+}
+p{
+    font-size: 20pt;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.spacing1{
+    letter-spacing: .08em;
+}
+
+.spacing2{
+    letter-spacing: -.08em;
+}
+
+.transform1{
+    text-transform: uppercase;
+}
+
+.transform2{
+    text-transform: capitalize;
+}
+
+.decoration1{
+    text-decoration: underline;
+}
+
+.decoration2{
+    text-decoration: line-through;
+}
