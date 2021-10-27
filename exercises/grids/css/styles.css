@@ -37,7 +37,7 @@
     font-size: 0;
 }
 
-.using-flex{
+.using-flex {
     display: flex;
     flex-wrap: wrap;
 }
