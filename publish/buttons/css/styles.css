@@ -1,0 +1,580 @@
+ body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a#btn_cocacola {
+    display: block;
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 58px;
+    padding: 17px 40px 0 35px;
+    background-color: red;
+    border: 2px solid red;
+    color: #fff;
+    font-size:38px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+
+a#btn_cocacola:hover {
+    background-color: #fff;
+    border: 2px solid red;
+    color: red;
+}
+
+#apple {
+    color: gray;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 5px 20px 10px 20px;
+    font-size: 80px;
+}
+
+#apple:hover {
+    color: black;
+}
+
+a#btn_ibm{
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    margin-top: 58px;
+    padding: 17px 40px 0 35px;
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+a#btn_ibm:active{
+    color: white;
+    transform: scale(0.7);
+    -webkit-text-stroke: 2px black;
+}
+a#btn_harleydavidson{
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px 40px 10px 42px;
+    font-size: 45px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: white;
+}
+
+a#btn_harleydavidson:hover{
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: orange;
+    font-weight: bolder;
+}
+a#btn_lyft{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: rgb(255, 66, 98);
+    border: 2px solid rgb(255, 66, 98);;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_lyft:hover{
+    background-color: #fff;
+    border: 2px solid rgb(255, 66, 98);;
+    color: rgb(255, 66, 98);;
+    transform: scale(2);
+}
+a#btn_samsung{
+    display: inline-block;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 70px;
+    padding: 10px 10px 25px 10px;
+    background-color: rgb(0, 140, 255);
+    border: 2px solid rgb(0, 140, 255);
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+a#btn_samsung:active{
+    color: rgb(0, 84, 158);
+    box-shadow: 0 5px 15px rgba(0, 68, 255, 0.8);
+}
+
+a#btn_c{
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: -47px;
+    margin-top: 3px;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 0px 0px 0px 0px;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+a#btn_n{
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    padding: 17px 40px 0 35px;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+a#btn_c:hover{
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0px 0px 0px 0px;
+    color: black;
+}
+
+a#btn_n:hover{
+    box-sizing: border-box;
+    background-color: black;
+    padding: 17px 40px 0 35px;
+    color: white;
+}
+
+a#btn_nike{
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    letter-spacing: -4px;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+a#btn_nike:active{
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    letter-spacing: 15px;
+}
+
+a#btn_tesla{
+    display: block;
+    margin: auto;
+    margin-top: 95px;
+    margin-left: -115px;
+    font-size: 50px;
+    font-family: 'Archivo Black', sans-serif; 
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+@keyframes tesla {
+    from { transform:translateX(0%); }
+    33% { transform:translateX(30%); }
+    66% { transform:translateX(0%); }
+    to { transform:translateX(30%); }
+  }
+
+a#btn_tesla:hover{
+    display: block;
+    transform-origin: center bottom; 
+    animation-name: tesla; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+  }
+a#btn_newyorker{
+    display: block;
+    margin: auto;
+    margin-top: 110px;
+    font-size: 25px;
+    font-family: adobe-caslon-pro, serif;; 
+    text-decoration: none;
+    color: black;
+  }
+
+a#btn_newyorker:hover{
+      text-decoration: underline;
+      transform: scale(1.5);
+  }
+
+a#btn_npr{
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+}
+
+a#btn_npr:active{
+    box-sizing: border-box;
+    background: linear-gradient(to right, red 26%,black 48%,rgb(0, 127, 211) 90%);
+    color: white;
+}
+
+a#btn_instagram{
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+    font-size: 60px;
+    font-family: look-script, serif;
+    text-decoration: none;
+    color: rgb(247, 0, 255);
+}
+
+@keyframes insta {
+    from { transform: rotate(-7deg); }
+    33% { transform: rotate(4deg); }
+    66% { transform: rotate(-4deg); }
+    to { transform: rotate(7deg); }
+  }
+
+a#btn_instagram:hover{
+    display: block;
+    transform-origin: center bottom; 
+    animation-name: insta; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+    text-shadow: 0 5px 15px rgb(255, 208, 0, 2);
+}
+
+a#btn_facebook{
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+    font-size: 90px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
+
+a#btn_facebook:hover{
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 0px 0px 0px 0px;
+    background-color:blue;
+    color: white;
+}
+
+a#btn_oldnavy{
+    display: inline-block;
+    margin: auto;
+    margin-top: 70px;
+    padding: 10px 37px 25px 37px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 38, 70);
+}
+a#btn_oldnavy:hover{
+    display: inline-block;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 70px;
+    padding: 10px 37px 25px 37px;
+    background-color: rgb(0, 38, 70);
+    border: 2px solid rgb(0, 38, 70);
+    color: #fff;
+}
+
+a#btn_nerf{
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: embury-text, serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: orange;
+}
+
+@keyframes nerf {
+    from { transform: rotate(-7deg); }
+    33% { transform: rotate(4deg); }
+    66% { transform: rotate(-4deg); }
+    to { transform: rotate(7deg); }
+  }
+
+a#btn_nerf:hover{
+    display: block;
+    transform-origin: center left; 
+    animation-name: nerf; 
+    animation-duration: 1s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+}
+
+a#btn_colorrun{
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 34px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, rgb(255, 0, 255), yellow, rgb(0, 174, 255)) ;  
+    padding: 0px 10px 0px 10px;
+}
+
+a#btn_colorrun:hover{
+    background-image: linear-gradient(to right, rgb(255, 0, 255), yellow, rgb(0, 174, 255)) ;  
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+a#btn_mk{
+    display: inline-block;
+    margin: auto;
+    margin-top: 60px;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -8px;
+    color: rgb(104, 91, 54);
+    height: 168px;
+    width: 168px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 18px 7px 0px 0px;
+    background-color: white;
+    border: 10px solid rgb(104, 91, 54);
+}
+
+a#btn_mk:hover{
+    letter-spacing: 10px;
+    color: rgb(104, 91, 54);
+    height: 185px;
+    width: 185px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 18px 7px 0px 0px;
+    background-color: white;
+    border: 10px solid rgb(104, 91, 54);
+}
+
+@keyframes fitbit {
+    from { transform: translateY(0%); }
+    33% { transform: translateY(40%); }
+    66% { transform: translateY(0%); }
+    to { transform: translateY(40%); }
+  }
+  
+a#btn_fitbit{
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 60px;
+    font-family: halcom, sans-serif;
+    text-decoration: none;
+    color: rgb(83, 179, 179);
+    display: block;
+    transform-origin: center center; 
+    animation-name: fitbit; 
+    animation-duration: 1s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+}
+
+a#btn_fitbit:hover{
+    color: teal;
+}
+
+a#btn_bissingers{
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 60px;
+    font-family: gothicus, serif;
+    text-decoration: none;
+    color: rgb(196, 196, 75);
+}
+
+a#btn_bissingers:active{
+    text-decoration: underline;
+    transform: scaleY(2);
+}
+
+#leaf {
+    display: inline-block;
+    height: 70px;
+    width: 30px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 5px -1px 10px 20px;
+    font-size: 50px;
+    color: black;
+}
+
+a#btn_tuckerallen{
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 36px;
+    font-family: serif;
+    text-decoration: none;
+    margin-left: -20px;
+    background-image: linear-gradient(to right, rgb(106, 189, 73), #ffda60, rgb(245, 77, 55)) ;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@keyframes leaf {
+    from { transform: translateY(0%); }
+    33% { transform: translateY(40%); }
+    66% { transform: translateY(80%); }
+    to { transform: translateY(120%); }
+  }
+
+a#btn_tuckerallen:hover{
+    display: block;
+    transform-origin: center left; 
+    animation-name: leaf; 
+    animation-duration: 1s; 
+    animation-iteration-count: infinite; 
+    animation-direction: normal;
+}
+
+#leaf:hover{
+    transform: scale(.5);
+}
+
+/* a#btn_tesla:hover{
+    transform: translatex(30%);
+} */
+
+
+/*
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    /* background: rgb(46,191,236); /* Old browsers */
+    /* background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    /* background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    /* background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+/* a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+} */
+
+/* a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+} */
+
+/* a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+} */
+
+/* a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+} */ 
