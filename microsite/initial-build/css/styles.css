@@ -1,0 +1,16 @@
+.myimage{
+    width: 10%;
+}
+
+h1{
+    font-size: 70pt;
+}
+
+nav#main-nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav#main-nav ul li a{
+    display: inline-block;
+}
